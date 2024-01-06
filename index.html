@@ -340,7 +340,7 @@ function dosubmit(form, url) {
                   <input type="password" id="password" name="password" value="">
                   <br>
                   <label> </label>
-		       <input class="button" type="submit" value="Login">
+		              <input class="button" type="button" value="Login" onclick="gotobranda()">
                </form>  
             </div>
             <div id="loginBox-foot"></div>
@@ -352,7 +352,7 @@ function dosubmit(form, url) {
 
       <script>
 	      const gotobranda = function(){
-		      location.href = location.origin + '/portal/branda';
+		      location.href = './branda.html';
 	      }
       </script>
    
